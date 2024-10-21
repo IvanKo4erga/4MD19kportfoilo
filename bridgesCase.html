@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/styleWolfCoin.css">
+    <!--link rel="stylesheet" href="css/styleMusicSchool.css"-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alegreya+SC:wght@700&family=Montserrat+Alternates:wght@500;700&display=swap"
+        rel="stylesheet">
+    <title>Мосты</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="./images/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="./images/favicon_io/site.webmanifest">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <header class="page-header">
+                <nav>
+                    <a class="nonline" id="logo" href="index.html">
+                        <div><img width="96" height="96" src="images/Logo.svg" alt="Logo"></div>
+                    </a>
+                    <ul>
+                        <li class="pS"><a href="cases.html">Портфолио</a></li>
+                        <li class="pS"><a href="contact.html">Контакты</a></li>
+                        <li class="pS"><a href="index.html#about">О себе</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <main class="page-main">
+                <div class="cases">
+                    <div id="player-1" class="player">
+                        <video poster="" id="video-player">
+                            <source
+                                src="./videos/bridges/457912_bridge_dusk_cityscape_19062501RainbowBridgeUHD051080p12000br.mp4"
+                                type="video/mp4">
+                        </video>
+
+
+                        <div class="controls">
+                            <progress id="progress" max="100" value="0"></progress>
+                            <div class="control-buttons">
+                                <div class="control-buttons-start">
+                                    <button class="button btnS" id="play"><img src="./images/play.svg"
+                                            alt="play"></button>
+                                    <button class="button btnS" id="pause"><img src="./images/pause.svg"
+                                            alt="pause"></button>
+                                    <button class="button btnS" id="stop"><img src="./images/stop.svg"
+                                            alt="stop"></button>
+                                    <div class="btnS"><input id="volume" type="range" min=0 max=100>
+                                        <div class="controls-text">Volume</div>
+                                    </div>
+                                </div>
+                                <div class="control-buttons-end">
+                                    <button class="button btnS" id="speed-up">Speed up</button>
+                                    <button class="button btnS" id="speed-down">Speed down</button>
+                                    <button class="button btnS" id="speed-normal">Speed normal</button>
+
+                                    <div class="controls-text btnS" id="time">00:00</div>
+                                </div>
+
+
+                            </div>
+
+
+                        </div>
+                    </div>
+                    <div id="player-2" class="player">
+                        <video poster="" id="video-player">
+                            <source src="./videos/bridges/Traffic on bridge at night -H264 75_1080p_12000br.mp4"
+                                type="video/mp4">
+                        </video>
+
+
+                        <div class="controls">
+                            <progress id="progress" max="100" value="0"></progress>
+                            <div class="control-buttons">
+                                <div class="control-buttons-start">
+                                    <button class="button btnS" id="play"><img src="./images/play.svg"
+                                            alt="play"></button>
+                                    <button class="button btnS" id="pause"><img src="./images/pause.svg"
+                                            alt="pause"></button>
+                                    <button class="button btnS" id="stop"><img src="./images/stop.svg"
+                                            alt="stop"></button>
+                                    <div class="btnS"><input id="volume" type="range" min=0 max=100>
+                                        <div class="controls-text">Volume</div>
+                                    </div>
+                                </div>
+                                <div class="control-buttons-end">
+                                    <button class="button btnS" id="speed-up">Speed up</button>
+                                    <button class="button btnS" id="speed-down">Speed down</button>
+                                    <button class="button btnS" id="speed-normal">Speed normal</button>
+
+                                    <div class="controls-text btnS" id="time">00:00</div>
+                                </div>
+
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="MoreText contact">
+                    <p class="pL">Эти видео имели успех в соцсетях</p>
+                    <p class="pL">Всегда готов к сотрудничеству! Жми↓</p>
+                    <button onclick="location.href='contact.html'" class="button btnL">Contact</button>
+                </div>
+            </main>
+
+            <footer class="page-footer">
+                <p class="pS">
+                    Kargin Daniil - Copyright © 2023
+                </p>
+                <ul>
+                    <li><a class="pS" href="mailto:daniilus.k@gmail.com">daniilus.k@gmail.com</a></li>
+                    <li><a class="pS" href="https://www.behance.net/daniilkargin">Behance</a></li>
+                    <li><a class="pS" href="https://t.me/ivankocherga">@ivankocherga</a></li>
+                </ul>
+            </footer>
+        </div>
+    </div>
+
+    <script src="./scripts/bridges.js"></script>
+</body>
+
+</html>
